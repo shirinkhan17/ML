@@ -1,4 +1,4 @@
-# Machine Learning Interview Notes
+# Machine Learning Basic Notes
 
 ## Table of Contents
 
