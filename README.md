@@ -269,7 +269,6 @@
 
 ### LSTM
 
-### GRU
 
 ---
 
@@ -310,16 +309,6 @@
 ### Vector Databases
 
 ### Prompt Engineering
-
----
-
-# 7. Recommendation Systems
-
-## Collaborative Filtering
-
-### Matrix Factorization
-
-### ALS
 
 ---
 
