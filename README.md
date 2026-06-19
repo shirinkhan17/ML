@@ -237,51 +237,7 @@
 
 ---
 
-# 5. Computer Vision
 
-## CNN Fundamentals
-
-### Convolution
-
-### Pooling
-
-### Padding
-
-### Stride
-
----
-
-## CNN Architectures
-
-### LeNet
-
-### AlexNet
-
-### VGG
-
-### ResNet
-
-### EfficientNet
-
----
-
-## Object Detection
-
-### R-CNN
-
-### Faster R-CNN
-
-### YOLO
-
----
-
-## Segmentation
-
-### U-Net
-
-### Mask R-CNN
-
----
 
 # 6. Natural Language Processing
 
@@ -379,27 +335,6 @@
 
 ---
 
-# 8. Time Series
-
-## Classical Methods
-
-### Moving Average
-
-### ARIMA
-
-### SARIMA
-
-### Prophet
-
----
-
-## Deep Learning Methods
-
-### LSTM Forecasting
-
-### Temporal Fusion Transformer
-
----
 
 # 9. Evaluation Metrics
 
@@ -495,35 +430,4 @@
 
 ---
 
-# 12. Interview Cheat Sheets
 
-## Supervised Learning Comparison Table
-
-* Linear Regression
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* XGBoost
-* SVM
-* KNN
-
-## Clustering Comparison Table
-
-* K-Means
-* DBSCAN
-* Hierarchical
-* GMM
-
-## Neural Network Comparison Table
-
-* MLP
-* CNN
-* RNN
-* LSTM
-* Transformer
-
-## Bias-Variance Cheat Sheet
-
-## Regularization Cheat Sheet
-
-## Loss Functions Cheat Sheet
