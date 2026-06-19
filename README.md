@@ -1,422 +1,212 @@
-# Machine Learning Basic Notes
+# Machine Learning Notes
 
 ## Table of Contents
 
 ### 1. Machine Learning Fundamentals
 
+* What is Machine Learning?
+* ML Workflow
 * Bias vs Variance
 * Underfitting vs Overfitting
 * Train/Validation/Test Split
 * Cross Validation
-* Evaluation Metrics
 * Feature Engineering
 * Regularization
+* Evaluation Metrics
 
 ---
 
-# 2. Supervised Learning
+## 2. Supervised Learning
 
-## Linear Models
+### Linear Models
 
-### Linear Regression
+* Linear Regression
+* Logistic Regression
+* Naive Bayes
 
-* Cost Function (MSE)
+### Tree-Based Models
+
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+* XGBoost
+* LightGBM
+* CatBoost
+
+### Other Classical Models
+
+* SVM
+* KNN
+
+---
+
+## 3. Unsupervised Learning
+
+### Clustering
+
+* K-Means
+* Hierarchical Clustering
+* DBSCAN
+* Gaussian Mixture Models
+
+### Dimensionality Reduction
+
+* PCA
+* t-SNE
+* UMAP
+
+### Other Topics
+
+* Association Rule Mining
+* Anomaly Detection
+
+---
+
+## 4. Neural Networks & Deep Learning
+
+### Neural Network Fundamentals
+
+* Perceptron
+* Feed Forward Networks
+* Activation Functions
+* Backpropagation
+
+### Optimization
+
 * Gradient Descent
-* Assumptions
-* Regularization
+* Optimizers
+* Learning Rate Scheduling
+* Weight Initialization
 
-### Logistic Regression
+### Regularization
 
-* Sigmoid Function
-* Log Loss
-* Odds & Log Odds
-* Multiclass Classification
-
-### Naive Bayes
-
-* Bayes Theorem
-* Gaussian Naive Bayes
-* Multinomial Naive Bayes
-
----
-
-## Tree-Based Models
-
-### Decision Tree
-
-* Gini Impurity
-* Entropy
-* Information Gain
-* Pruning
-* Bias vs Variance
-
-### Random Forest
-
-* Bagging
-* Bootstrap Sampling
-* Feature Randomness
-* OOB Error
-
-### Gradient Boosting
-
-* Sequential Learning
-* Residual Fitting
-
-### XGBoost
-
-* Objective Function
-* Gradient & Hessian
-* L1/L2 Regularization
-* Learning Rate
+* L1/L2
+* Dropout
+* Batch Normalization
 * Early Stopping
 
-### LightGBM
+---
 
-* Leaf-wise Growth
-* Histogram Binning
-* GOSS
-* EFB
+## 5. Natural Language Processing
 
-### CatBoost
+### Text Processing
 
-* Ordered Boosting
-* Native Categorical Features
+* Tokenization
+* Stemming
+* Lemmatization
+* TF-IDF
+
+### Embeddings
+
+* Word2Vec
+* GloVe
+* FastText
+
+### Sequence Models
+
+* RNN
+* LSTM
+
+### Transformers
+
+* Attention
+* Transformer Architecture
+* BERT
+* GPT
+* T5
+* LLaMA
+
+### LLM Topics
+
+* Fine-Tuning
+* LoRA
+* RLHF
+* RAG
+* Vector Databases
+* Prompt Engineering
 
 ---
 
-## Support Vector Machines
+## 6. Recommendation Systems
 
-### SVM
-
-* Maximum Margin
-* Soft Margin
-* Kernel Trick
-
-### Kernels
-
-* Linear
-* Polynomial
-* RBF
+* Collaborative Filtering
+* Matrix Factorization
+* Wide & Deep
+* DeepFM
+* Two-Tower Models
+* Retrieval vs Ranking
 
 ---
 
-## Instance-Based Learning
+## 7. Evaluation Metrics
 
-### KNN
+### Classification Metrics
 
-* Distance Metrics
-* Curse of Dimensionality
-* Choosing K
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+* PR-AUC
 
----
+### Regression Metrics
 
-# 3. Unsupervised Learning
+* MAE
+* MSE
+* RMSE
+* R²
 
-## Clustering
+### Ranking Metrics
 
-### K-Means
-
-* Lloyd's Algorithm
-* WCSS
-* Elbow Method
-
-### Hierarchical Clustering
-
-* Agglomerative
-* Dendrogram
-
-### DBSCAN
-
-* Density-Based Clustering
-* eps
-* min_samples
-
-### Gaussian Mixture Models
-
-* EM Algorithm
-* Soft Clustering
+* MAP
+* MRR
+* NDCG
+* Hit Rate
 
 ---
 
-## Dimensionality Reduction
+## 8. ML System Design
 
-### PCA
-
-* Covariance Matrix
-* Eigenvectors
-* Explained Variance
-
-### t-SNE
-
-* Visualization
-* Perplexity
-
-### UMAP
-
-* Manifold Learning
-* Neighbor Graphs
+* Data Pipeline
+* Feature Store
+* Model Training
+* Model Serving
+* Batch vs Real-Time Inference
+* Monitoring
+* Data Drift
+* Concept Drift
+* Retraining
 
 ---
 
-## Association Rule Mining
+## 9. Statistics for Machine Learning
 
-### Apriori
+### Probability
 
-* Support
-* Confidence
-* Lift
+* Bayes Theorem
+* Conditional Probability
+* Independence
 
----
+### Statistical Inference
 
-## Anomaly Detection
+* Hypothesis Testing
+* p-value
+* Confidence Intervals
+* Statistical Power
 
-### Isolation Forest
+### Experimentation
 
-### One-Class SVM
-
-### Local Outlier Factor (LOF)
-
----
-
-# 4. Neural Networks & Deep Learning
-
-## Neural Network Basics
-
-### Perceptron
-
-### Feed Forward Neural Network
-
-### Activation Functions
-
-* Sigmoid
-* Tanh
-* ReLU
-* Leaky ReLU
-* GELU
-
-### Backpropagation
-
-### Gradient Descent Variants
-
-* Batch GD
-* SGD
-* Mini-batch GD
+* A/B Testing
+* Causal Inference
 
 ---
 
-## Optimization
-
-### Optimizers
-
-* SGD
-* Momentum
-* RMSProp
-* Adam
-* AdamW
-
-### Learning Rate Scheduling
-
-### Weight Initialization
-
-* Xavier
-* He Initialization
-
----
-
-## Regularization
-
-### L1
-
-### L2
-
-### Dropout
-
-### Batch Normalization
-
-### Early Stopping
-
----
-
-
-
-# 6. Natural Language Processing
-
-## Text Processing
-
-### Tokenization
-
-### Stemming
-
-### Lemmatization
-
-### TF-IDF
-
----
-
-## Word Embeddings
-
-### Word2Vec
-
-### GloVe
-
-### FastText
-
----
-
-## Sequence Models
-
-### RNN
-
-### LSTM
-
-
----
-
-## Attention
-
-### Self-Attention
-
-### Multi-Head Attention
-
-### Positional Encoding
-
----
-
-## Transformers
-
-### Transformer Architecture
-
-### BERT
-
-### GPT
-
-### T5
-
-### LLaMA
-
----
-
-## LLM Topics
-
-### Fine-Tuning
-
-### LoRA
-
-### RLHF
-
-### RAG
-
-### Vector Databases
-
-### Prompt Engineering
-
----
-
-## Deep Learning Recommenders
-
-### Wide & Deep
-
-### DeepFM
-
-### Two-Tower Model
-
-### Retrieval vs Ranking
-
----
-
-
-# 9. Evaluation Metrics
-
-## Classification
-
-### Accuracy
-
-### Precision
-
-### Recall
-
-### F1 Score
-
-### ROC-AUC
-
-### PR-AUC
-
----
-
-## Regression
-
-### MAE
-
-### MSE
-
-### RMSE
-
-### R²
-
----
-
-## Ranking
-
-### MAP
-
-### MRR
-
-### NDCG
-
-### Hit Rate
-
----
-
-# 10. ML System Design
-
-## Data Pipeline
-
-## Feature Store
-
-## Model Serving
-
-## Batch vs Real-Time Inference
-
-## Monitoring
-
-### Data Drift
-
-### Concept Drift
-
-### Model Retraining
-
----
-
-# 11. Statistics
-
-## Probability
-
-### Bayes Theorem
-
-### Conditional Probability
-
-### Independence
-
----
-
-## Hypothesis Testing
-
-### p-value
-
-### Type I Error
-
-### Type II Error
-
-### Statistical Power
-
----
-
-## Confidence Intervals
-
-## A/B Testing
-
-## Causal Inference
-
----
-
-
+## 10. Interview Cheat Sheets
+
+* Supervised Learning Comparison Tables
+* Unsupervised Learning Comparison Tables
+* Neural Network Cheat Sheet
+* Loss Functions Cheat Sheet
+* Regularization Cheat Sheet
+* Bias-Variance Cheat Sheet
+* ML System Design Checklist
