@@ -200,13 +200,3 @@
 * Causal Inference
 
 ---
-
-## 10. Interview Cheat Sheets
-
-* Supervised Learning Comparison Tables
-* Unsupervised Learning Comparison Tables
-* Neural Network Cheat Sheet
-* Loss Functions Cheat Sheet
-* Regularization Cheat Sheet
-* Bias-Variance Cheat Sheet
-* ML System Design Checklist
