@@ -102,39 +102,6 @@
 * GloVe
 * FastText
 
-### Sequence Models
-
-* RNN
-* LSTM
-
-### Transformers
-
-* Attention
-* Transformer Architecture
-* BERT
-* GPT
-* T5
-* LLaMA
-
-### LLM Topics
-
-* Fine-Tuning
-* LoRA
-* RLHF
-* RAG
-* Vector Databases
-* Prompt Engineering
-
----
-
-## 6. Recommendation Systems
-
-* Collaborative Filtering
-* Matrix Factorization
-* Wide & Deep
-* DeepFM
-* Two-Tower Models
-* Retrieval vs Ranking
 
 ---
 
